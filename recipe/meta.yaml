@@ -1,6 +1,6 @@
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 {% set name = "fsspec" %}
-{% set sha256 = "67e266c36c4344f9e1c385ccbbbcb88ab2ef98dca13c51e4632e10d0e5157f9c" %}
+{% set sha256 = "8b7b63528c035055bff0820cf16101299bd5f23d7c9aa28f70a99b33e9de7335" %}
 
 package:
    name: filesystem-spec
