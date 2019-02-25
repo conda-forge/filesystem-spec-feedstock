@@ -3,7 +3,7 @@
 {% set sha256 = "8b7b63528c035055bff0820cf16101299bd5f23d7c9aa28f70a99b33e9de7335" %}
 
 package:
-   name: filesystem-spec
+   name: fsspec
    version: {{ version }}
 
 source:
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }}  -m pip install . --no-deps --ignore-installed -vv"
 
