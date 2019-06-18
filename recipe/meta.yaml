@@ -1,6 +1,6 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set name = "fsspec" %}
-{% set sha256 = "8b7b63528c035055bff0820cf16101299bd5f23d7c9aa28f70a99b33e9de7335" %}
+{% set sha256 = "27354bc74a95a2ba5a6af0c04aec4d22ac436dc1cdcad9be3e4da83dd1533f52" %}
 
 package:
    name: fsspec
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: "{{ PYTHON }}  -m pip install . --no-deps --ignore-installed -vv"
 
