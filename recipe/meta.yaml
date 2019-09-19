@@ -1,6 +1,6 @@
-{% set version = "0.4.5" %}
+{% set version = "0.5.1" %}
 {% set name = "fsspec" %}
-{% set sha256 = "824e406f5628cfde927ac945acf4ff70bc712b8bd204d7b99fe127993254db70" %}
+{% set sha256 = "5a1446e70d1a106e4b8086be5dd2dc13008b946fbdf8c3423f38442f7cdaede5" %}
 
 package:
    name: fsspec
@@ -37,3 +37,4 @@ about:
 extra:
   recipe-maintainers:
     - martindurant
+    - TomAugspurger
