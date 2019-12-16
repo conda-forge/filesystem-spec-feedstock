@@ -1,6 +1,6 @@
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 {% set name = "fsspec" %}
-{% set sha256 = "f29f0085698f10155af20333387eae82ee785a15d5fd7d0fcc36680236522bbd" %}
+{% set sha256 = "ffd7cd5ac32f36698097c3d78c2c433d4c12f7e4bce3a3a4036fd3491188046d" %}
 
 package:
    name: fsspec
