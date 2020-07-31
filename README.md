@@ -5,7 +5,7 @@ Home: https://github.com/martindurant/filesystem_spec
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A specification for pythonic filesystems
 
