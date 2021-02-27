@@ -28,8 +28,6 @@ requirements:
 test:
   requires:
     - pip
-    # TODO: remove, probably
-    - python <3.8
   imports:
     - fsspec
   commands:
