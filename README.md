@@ -1,13 +1,19 @@
 About fsspec
 ============
 
-Home: https://github.com/martindurant/filesystem_spec
+Home: https://github.com/intake/filesystem_spec
 
 Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/filesystem-spec-feedstock/blob/master/LICENSE.txt)
 
 Summary: A specification for pythonic filesystems
+
+Documentation: https://filesystem-spec.readthedocs.io
+
+To produce a template or specification for a file-system interface, that specific implementations should follow, so that applications making use of them can rely on a common behaviour and not have to worry about the specific internal implementation decisions with any given backend. Many such implementations are included in this package, or in sister projects such as s3fs and gcsfs.
+In addition, if this is well-designed, then additional functionality, such as a key-value store or FUSE mounting of the file-system implementation may be available for all implementations "for free".
+
 
 Current build status
 ====================
@@ -106,9 +112,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
