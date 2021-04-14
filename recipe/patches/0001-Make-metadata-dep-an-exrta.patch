@@ -1,0 +1,25 @@
+From 131fc374dc03edeaf12f8a594bb50db4d8d141be Mon Sep 17 00:00:00 2001
+From: Martin Durant <martin.durant@utoronto.ca>
+Date: Thu, 8 Apr 2021 11:58:33 -0400
+Subject: [PATCH] Make metadata dep an exrta
+
+---
+ setup.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/setup.py b/setup.py
+index b51f0fa..18b7b48 100644
+--- a/setup.py
++++ b/setup.py
+@@ -35,7 +35,7 @@ setup(
+     python_requires=">=3.6",
+     install_requires=open("requirements.txt").read().strip().split("\n"),
+     extras_require={
+-        ":python_version < '3.8'": ["importlib_metadata"],
++        "entrypoints": ["importlib_metadata ; python_version < '3.8' "],
+         "abfs": ["adlfs"],
+         "adl": ["adlfs"],
+         "dask": ["dask", "distributed"],
+-- 
+2.27.0
+
