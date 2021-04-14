@@ -10,6 +10,8 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches:
+    - patches/0001-Make-metadata-dep-an-exrta.patch
 
 build:
   number: 1
@@ -23,7 +25,6 @@ requirements:
     - jinja2
   run:
     - python >=3.5
-    - importlib-metadata  # [py<38]
 
 test:
   imports:
