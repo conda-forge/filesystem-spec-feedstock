@@ -23,6 +23,7 @@ requirements:
     - jinja2
   run:
     - python >=3.5
+    - importlib-metadata  # [py<38]
 
 test:
   imports:
