@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }}  -m pip install . --no-deps --ignore-installed -vv
 
@@ -29,10 +29,12 @@ test:
     - fsspec
 
 about:
-  home: https://github.com/martindurant/filesystem_spec
+  home: https://github.com/intake/filesystem_spec
   license: BSD-3-Clause
   license_file: LICENSE
   summary: A specification for pythonic filesystems
+  dev_url: https://github.com/intake/filesystem_spec
+  doc_url: https://filesystem-spec.readthedocs.io
 
 extra:
   recipe-maintainers:
