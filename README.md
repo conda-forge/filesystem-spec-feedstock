@@ -1,13 +1,17 @@
 About fsspec
 ============
 
-Home: https://github.com/martindurant/filesystem_spec
+Home: https://github.com/intake/filesystem_spec
 
 Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/filesystem-spec-feedstock/blob/master/LICENSE.txt)
 
 Summary: A specification for pythonic filesystems
+
+Development: https://github.com/intake/filesystem_spec
+
+Documentation: https://filesystem-spec.readthedocs.io
 
 Current build status
 ====================
@@ -36,6 +40,7 @@ Installing `fsspec` from the `conda-forge` channel can be achieved by adding `co
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `fsspec` can be installed with:
