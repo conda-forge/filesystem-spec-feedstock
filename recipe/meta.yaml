@@ -1,6 +1,6 @@
-{% set version = "2023.4.0" %}
+{% set version = "2023.5.0" %}
 {% set name = "fsspec" %}
-{% set sha256 = "bf064186cd8808f0b2f6517273339ba0a0c8fb1b7048991c28bc67f58b8b67cd" %}
+{% set sha256 = "b3b56e00fb93ea321bc9e5d9cf6f8522a0198b20eb24e02774d329e9c6fb84ce" %}
 
 package:
   name: fsspec
