@@ -21,6 +21,7 @@ requirements:
     - pip
     - jinja2
     - hatch
+    - hatch-vcs
   run:
     - python >=3.8
 
