@@ -1,6 +1,6 @@
-{% set version = "2024.3.1" %}
+{% set version = "2024.5.0" %}
 {% set name = "fsspec" %}
-{% set sha256 = "f39780e282d7d117ffb42bb96992f8a90795e4d0fb0f661a70ca39fe9c43ded9" %}
+{% set sha256 = "1d021b0b0f933e3b3029ed808eb400c08ba101ca2de4b3483fbc9ca23fcee94a" %}
 
 package:
   name: fsspec
@@ -20,6 +20,8 @@ requirements:
     - python
     - pip
     - jinja2
+    - hatch
+    - hatch-vcs
   run:
     - python >=3.8
 
