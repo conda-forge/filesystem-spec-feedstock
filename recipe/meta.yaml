@@ -11,24 +11,24 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
     - python {{ python_min }}
     - pip
-    - jinja2
-    - hatch
+    - hatchling
     - hatch-vcs
   run:
     - python >={{ python_min }}
+    - aiohttp <4
 
 test:
   requires:
-    - pip
     - python {{ python_min }}
+    - pip
   imports:
     - fsspec
   commands:
