@@ -35,7 +35,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/intake/filesystem_spec
+  home: https://github.com/fsspec/filesystem_spec
   license: BSD-3-Clause
   license_file: LICENSE
   summary: A specification for pythonic filesystems
