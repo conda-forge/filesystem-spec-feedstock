@@ -3,7 +3,7 @@ About fsspec-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/filesystem-spec-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/intake/filesystem_spec
+Home: https://github.com/fsspec/filesystem_spec
 
 Package license: BSD-3-Clause
 
@@ -24,7 +24,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/filesystem-spec-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/filesystem-spec-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
