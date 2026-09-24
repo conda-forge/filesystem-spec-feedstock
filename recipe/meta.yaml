@@ -1,13 +1,13 @@
-{% set version = "2026.7.0" %}
+{% set version = "2026.9.0" %}
 {% set name = "fsspec" %}
-{% set sha256 = "c803c40f4cf860b49dea58ee3e1c33cb9c790520e233537e1340049f89b82a88" %}
+{% set sha256 = "0f08147951c8cb31d844c3547d631053b127863b60be04cf06e121333ee0e2fe" %}
 
 package:
   name: fsspec
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
